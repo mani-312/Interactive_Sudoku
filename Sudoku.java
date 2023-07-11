@@ -118,9 +118,9 @@ public class Sudoku extends JFrame implements KeyListener
 		int r,c,v,i;
 		for(i=0;i<40;i++)
 		{
-			r=rand.nextInt(8);
-			c=rand.nextInt(8);
-			v=rand.nextInt(8)+1;
+			r=rand.nextInt(9);
+			c=rand.nextInt(9);
+			v=rand.nextInt(9)+1;
 			if(a[r][c]==0&&check(a,r,c,v)==1)
 			{
 				int temp_a[][]=new int[9][9];
